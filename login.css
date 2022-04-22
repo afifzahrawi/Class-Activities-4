@@ -20,9 +20,7 @@ body {
   background-size: cover;
 }
 
-form {
-  text-align: center;
-}
+form {text-align: center;}
 
 input[type=text], input[type=password] {
   width: 300px;
@@ -42,9 +40,7 @@ button {
   border-radius: 5px;
 }
 
-button:hover {
-  opacity: 0.8;
-}
+button:hover {opacity: 0.8;}
 
 .imgcontainer {
   text-align: center;

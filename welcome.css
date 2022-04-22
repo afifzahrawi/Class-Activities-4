@@ -7,8 +7,8 @@ body {
 
 header {
   color: white;
-  font-size: 150%;
-  font-family: cursive;
+  font-size: 300%;
+  font-family: monospace;
   text-align: center;
   background-color: #cc3300;
   padding: 50px;
@@ -17,12 +17,11 @@ header {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 50px;
-  padding-bottom: 100px;
+  padding: 5%;
 }
 
-input[type=submit] {
-  width: 30%;
+input[type=submit], button[type=button] {
+
   background-color: #cc3300;
   color: white;
   padding: 12px 20px;
@@ -32,8 +31,16 @@ input[type=submit] {
   float: left;
 }
 
-input[type=submit]:hover {
+input[type=submit]:hover, button[type=button]:hover {
   background-color: #ff6633;
+}
+
+input[type=submit] {
+  width: 30%;
+}
+
+button[type=button] {
+  width: 10%;
 }
 
 .floatright {
